@@ -1274,7 +1274,7 @@ body.mobile-nav-open .menu-toggle .mobile-trigger span:before, body.mobile-nav-o
 body.mobile-nav-open .menu-toggle .mobile-trigger span > span:after { -moz-transform: rotate(45deg); -ms-transform: rotate(45deg); -webkit-transform: rotate(45deg); transform: rotate(45deg); }
 
 @media only screen and (max-width: 991px) { .nav-primary { position: absolute; top: 68px; left: 0; right: 0; width: 100%; background-color: #fff; padding-left: 15px; padding-right: 15px; line-height: 1 !important; list-style: none; font-size: 12px; font-weight: 600; text-transform: uppercase; border-top: 1px solid rgba(0, 0, 0, 0.15); overflow: auto; max-height: 80vh; display: none; -moz-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1); box-shadow: 0px 2px 3px 0px rgba(0, 0, 0, 0.1); }
-  .nav-primary li a { position: relative; height: auto !important; }
+  .nav-primary li a { position: relative; height: auto !important; color: #222222; }
   .nav-primary li a:hover, .nav-primary li a:focus { background: transparent; }
   .nav-primary li a > i { margin-right: 8px; }
   .nav-primary li a > .label { margin-left: 5px; }
@@ -2445,6 +2445,8 @@ html[dir="rtl"] .pagination > li:first-child, html[dir="rtl"] .pagination > li:l
 ----------------------------------------------------------*/
 /* Fonts */
 .font-secondary { font-family: "Montserrat", Helvetica, Arial, sans-serif; }
+
+.dropshadow {text-shadow: 2px 2px 6px #000000;}
 
 /* Headings */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { margin-top: 0; display: block; font-family: "Montserrat", Helvetica, Arial, sans-serif; }
