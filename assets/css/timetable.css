@@ -1,7 +1,7 @@
 /* Timetable */
 .tiva-timetable {
 	font-family: "Montserrat", Helvetica, Arial, sans-serif;
-	font-size: 13px;
+	font-size: 11px;
     color: #535353;
     line-height: 24px;
 	-webkit-font-smoothing: antialiased;
@@ -11,6 +11,7 @@
 	width: 100%;
     float: left;
 }
+
 
 /* Loading */
 .tiva-timetable .loading {
@@ -76,7 +77,7 @@
 	padding: 10px 0;
 	background-color: #353535;
 	color: #fff;
-	font-weight: 400;
+	font-weight: 600;
 	text-align: center;
 	border-right: 1px solid #d1d1d1;
 	-webkit-box-sizing: content-box;
@@ -84,12 +85,14 @@
 	box-sizing: content-box;
 	text-transform: uppercase;
 	letter-spacing: 0.1em;
+	vertical-align: middle;
 }
 .tiva-timetable .timetable-week.show-time .timetable-column .timetable-column-header {
 	height: 50px; /* Show time on header */
 }
 .tiva-timetable .timetable-week .timetable-column .timetable-column-header span {
-	font-size: 14px;	
+	font-size: 11px;	
+	font-weight: 400;
 }
 .tiva-timetable .timetable-week .timetable-column .timetable-column-header.last-column {
 	border-right: none;
@@ -133,13 +136,13 @@
 	overflow: hidden;
 }
 .tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-name {
-	font-size: 14px;
+	font-size: 12px;
 	line-height: 14px;
 	white-space: nowrap;
 	margin-bottom: 8px;
 }
 .tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-time {
-	font-size: 13px;
+	font-size: 12px;
 	line-height: 13px;
 	white-space: nowrap;
 	margin-bottom: 1px;
@@ -380,19 +383,23 @@
 	font-weight: 400;
 	border-top-left-radius: 3px;
     border-top-right-radius: 3px;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
 }
 .timetable-popup .popup-body {
-	padding: 30px;
 	color: #535353;
 	text-align: center;
 }
+
 .timetable-popup .popup-body .timetable-image img {
 	max-width: 100%;
-	margin-bottom: 15px;
+	margin-bottom: 30px;
 }
 .timetable-popup .popup-body .timetable-desc {
 	text-align: justify;
 	font-size: 14px;
+	padding: 0 30px 30px;
 }
 .timetable-popup .popup-body .timetable-time {
 	margin-bottom: 15px;

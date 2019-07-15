@@ -32,7 +32,7 @@ Table of Contents:
 /* ----------------------------------------------------------------------------- */
 /* --- 1. SETUP
 /* ----------------------------------------------------------------------------- */
-body { position: relative; color: #434343; font-size: 13px; font-family: "Open Sans", Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.5; overflow-x: hidden; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { position: relative; color: #434343; font-size: 14px; font-family: "Raleway", Helvetica, Arial, sans-serif; font-weight: 400; line-height: 1.5; overflow-x: hidden; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
 
 a { color: inherit; -moz-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; -webkit-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 
@@ -2480,8 +2480,7 @@ h6, h6 { font-size: 13px; font-family: "Montserrat", Helvetica, Arial, sans-seri
   h2 { font-size: 34px; } }
 @media only screen and (max-width: 991px) { h1.text-xl { font-size: 60px; } }
 /* Paragraph */
-p { font-size: 13px; font-weight: 400; margin-bottom: 25px; }
-
+p { font-size: 14px; font-weight: 400; margin-bottom: 20px; }
 p.lead { font-size: 16px; margin-bottom: 25px; }
 p.lead.text-lg { font-size: 24px; margin-bottom: 35px; }
 
