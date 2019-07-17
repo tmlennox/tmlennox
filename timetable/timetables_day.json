@@ -15,7 +15,7 @@
 			"image": "gi.jpg",
 			"day": "monday",
 			"start_time": "19:00",
-			"end_time": "21:30",
+			"end_time": "20:30",
 			"color": "2",
 			"description": "Take your game to the next level by delving into more complex and modern jiu jitsu techniques. Learn core concepts, attacks, escapes, and how to utilize the gi to your advantage. Open to any belt rank and new students as well."
 		},
@@ -24,7 +24,7 @@
 			"image": "nogi.jpg",
 			"day": "tuesday",
 			"start_time": "19:00",
-			"end_time": "21:30",
+			"end_time": "20:30",
 			"color": "5",
 			"description": "Our no-gi classes give students the opportunity to learn jiu-jitsu that is effective without the gi. Learn how to adapt your techniques to a no-gi setting, learn effective no-gi takedowns, and pick up new attacks and defensive techniques to grow both your no-gi and gi jiu jitsu game!"
 		},
@@ -42,7 +42,7 @@
 			"image": "gi.jpg",
 			"day": "wednesday",
 			"start_time": "19:00",
-			"end_time": "21:30",
+			"end_time": "20:30",
 			"color": "2",
 			"description": "Take your game to the next level by delving into more complex and modern jiu jitsu techniques. Learn core concepts, attacks, escapes, and how to utilize the gi to your advantage. Open to any belt rank and new students as well."
 		},
@@ -56,13 +56,13 @@
 			"description": "Learn fundamental jiu jitsu techniques while also learning about respect and building confidence in our class designed to intro kids to the “Gentle Art”. Improve balance and agility through games and coordination drills while having a ton of fun! Kids age 8-13."
 		},
 		{
-			"name": "Gi BJJ - Takedowns",
-			"image": "takedowns.jpg",
+			"name": "Gi BJJ",
+			"image": "gi.jpg",
 			"day": "thursday",
 			"start_time": "19:00",
-			"end_time": "21:30",
-			"color": "7",
-			"description": "Integrate the important aspect of being able to take the match to the ground by learning wrestling and judo techniques. In this class you will explore a variety of trips, picks, and throws. Learn important concepts like level changing, momentum, and timing while you hone your takedowns with positional sparring."
+			"end_time": "20:30",
+			"color": "2",
+			"description": "Take your game to the next level by delving into more complex and modern jiu jitsu techniques. Learn core concepts, attacks, escapes, and how to utilize the gi to your advantage. Open to any belt rank and new students as well."
 		},
 		{
 			"name": "Open Mat",
@@ -87,7 +87,7 @@
 			"image": "nogi.jpg",
 			"day": "saturday",
 			"start_time": "12:00",
-			"end_time": "14:30",
+			"end_time": "14:00",
 			"color": "5",
 			"description": "Our no-gi classes give students the opportunity to learn jiu-jitsu that is effective without the gi. Learn how to adapt your techniques to a no-gi setting, learn effective no-gi takedowns, and pick up new attacks and defensive techniques to grow both your no-gi and gi jiu jitsu game! We begin the class with a Q&A, so bring any questions you might have about what you learned during the week."
 		}
