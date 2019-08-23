@@ -2147,6 +2147,7 @@ select.form-control { line-height: 1; }
 .icon.icon-square, .icon.icon-circle { height: 72px; font-size: 32px; text-align: center; color: #fff; }
 .icon.icon-square > *, .icon.icon-circle > * { position: absolute; top: 50%; left: 50%; -moz-transform: translate3d(-50%, -50%, 0); -webkit-transform: translate3d(-50%, -50%, 0); transform: translate3d(-50%, -50%, 0); }
 .icon.icon-square.icon-xs, .icon.icon-circle.icon-xs { height: 36px; font-size: 13px; }
+.bottom-social-media-icons { height: 36px; font-size: 32px; margin: 0 20px;}
 .icon.icon-square.icon-sm, .icon.icon-circle.icon-sm { height: 48px; font-size: 22px; }
 .icon.icon-square.icon-lg, .icon.icon-circle.icon-lg { height: 112px; font-size: 48px; }
 .icon.icon-square.icon-xl, .icon.icon-circle.icon-xl { height: 164px; font-size: 78px; }
@@ -2488,6 +2489,7 @@ h6, h6 { font-size: 13px; font-family: "Montserrat", Helvetica, Arial, sans-seri
 p { font-size: 14px; font-weight: 400; margin-bottom: 20px; }
 p.lead { font-size: 16px; margin-bottom: 25px; }
 p.lead.text-lg { font-size: 24px; margin-bottom: 35px; }
+p a {text-decoration: underline;!important; color:#222;}
 
 /* Address */
 address { margin-bottom: 25px; }

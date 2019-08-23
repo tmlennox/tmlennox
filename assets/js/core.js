@@ -563,9 +563,11 @@ var Okno = {
                 var limit =  $instagramFeed.data('limit'),
                     res = $instagramFeed.data('resolution') ? $instagramFeed.data('resolution') : 'thumbnail';
                 var feed = new Instafeed({
-                    accessToken: '2129887151.1677ed0.2da2488374b14593a2d8aa6583079272',
-                    userId: '2129887151',
-                    get: 'user',
+                    clientId: '0ce289d3024149e2935ae8b8520d6cad',
+                    // accessToken: '2129887151.1677ed0.2da2488374b14593a2d8aa6583079272',
+                    // userId: '3250804312',
+                    userId: '4139362100', //this is jiujitsukulele
+                    get: 'popular',
                     target: 'instagram-feed',
                     template: '<a href="{{link}}" target="_blank"><img src="{{image}}" /></a>',
                     limit: limit,
@@ -703,8 +705,8 @@ var Okno = {
                             type: 'POST',
                             url:  'assets/php/contact-form.php',
                             data: $form.serialize(),
-                            error       : function(err) { setTimeout(function(){ $btn.addClass('error'); }, 1200); },
-                            success     : function(data) {
+                            error: function(err) { setTimeout(function(){ $btn.addClass('error'); }, 1200); },
+                            success: function(data) {
                                 if (data != "success") {
                                     response = 'error';
                                     showNotification('error',msgError);
